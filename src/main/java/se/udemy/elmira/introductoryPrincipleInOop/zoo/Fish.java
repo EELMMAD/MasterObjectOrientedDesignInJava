@@ -5,6 +5,11 @@ public class Fish extends Animal{
         super(age, gender, weight);
     }
 
+    @Override
+    public void move() {
+        System.out.println("Fish is swimming...");
+    }
+
     public void swim(){
         System.out.println("Swimming...");
     }

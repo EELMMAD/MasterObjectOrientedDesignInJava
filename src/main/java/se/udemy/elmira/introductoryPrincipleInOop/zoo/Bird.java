@@ -1,8 +1,18 @@
 package se.udemy.elmira.introductoryPrincipleInOop.zoo;
 
-public class Bird extends Animal{
+public class Bird extends Animal implements Flyable{
     public Bird(int age, String gender, int weight) {
         super(age, gender, weight);
+    }
+
+    @Override
+    public void move() {
+        System.out.println("Flapping wings...");
+    }
+
+    @Override
+    public void fly() {
+
     }
 
     /*
@@ -10,6 +20,5 @@ public class Bird extends Animal{
     public void fly(){
         System.out.println("Flying...");
     }
-
      */
 }

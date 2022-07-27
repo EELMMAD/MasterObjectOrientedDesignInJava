@@ -2,14 +2,22 @@ package se.udemy.elmira.introductoryPrincipleInOop.zoo;
 
 public class Zoo {
     public static void main(String[] args) {
-        Animal animal1 = new Animal(12, "M", 23);
-        animal1.eat();
+        Animal sparrow1 = new Sparrow(1, "M", 4);
+       // sparrow1.move();
 
-        Bird bird1 = new Bird(3, "F", 10);
-        bird1.eat();
-        bird1.sleep();
+        Animal fish1 = new Fish(1, "M", 2);
+       // fish1.move();
 
-        Chicken chicken1 = new Chicken(1, "M", 7);
-        chicken1.fly();
+       // moveAnimals(fish1);
+       // moveAnimals(sparrow1);
+
+        Flyable flyingBird = new Sparrow(1, "m",4);
+        Flyable flyingBird2 = new Bird(1, "m",3);
+        flyingBird.fly();
+        flyingBird2.fly();
+    }
+
+    public static void moveAnimals(Animal animal){
+     animal.move();
     }
 }
