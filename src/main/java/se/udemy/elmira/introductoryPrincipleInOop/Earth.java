@@ -16,6 +16,22 @@ public class Earth {
         tom.eyeColor = "brown";
         tom.heightInInches = 72;
         tom.name = "Tom Zsabo";
-        tom.speak();
+        tom.speak();   //note here tom is human object
+
+        System.out.println("-------");
+        Human joe = new Human();
+        joe.age = 36;
+        joe.eyeColor = "Green";
+        joe.name = "Joe Greensilk";
+        joe.heightInInches = 68;
+
+        joe.speak();
+
+
+        //Now keep in mind that both Tom and Joe are different software objects.
+        //
+        //They have similar behavior and characteristics as defined in their class but they are completely separate
+        //
+        //objects.
     }
 }

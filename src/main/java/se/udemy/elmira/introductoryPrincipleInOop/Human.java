@@ -6,7 +6,16 @@ public class Human {
     int heightInInches;
     String eyeColor;
 
-    public Human(){
+    public Human() {
+    }
+
+    public Human(String name, int age, int heightInInches, String eyeColor) {
+        //this keyword is actually a variable
+        //in Java and it points to the current object
+        this.name = name;
+        this.age = age;
+        this.heightInInches = heightInInches;
+        this.eyeColor = eyeColor;
     }
 
     public void speak(){
