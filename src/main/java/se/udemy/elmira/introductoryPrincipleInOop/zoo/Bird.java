@@ -5,7 +5,11 @@ public class Bird extends Animal{
         super(age, gender, weight);
     }
 
+    /*
+    //overriding the method defined in Bird  **** Override = Replace ****
     public void fly(){
         System.out.println("Flying...");
     }
+
+     */
 }
