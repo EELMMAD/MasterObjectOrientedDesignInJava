@@ -1,4 +1,4 @@
-package se.udemy.elmira.introductoryPrincipleInOop;
+package se.udemy.elmira.introductoryPrincipleInOop.human;
 
 public class EarthI {
     public static void main(String[] args) {
