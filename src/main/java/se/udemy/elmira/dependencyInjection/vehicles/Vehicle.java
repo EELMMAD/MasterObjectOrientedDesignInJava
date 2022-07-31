@@ -1,8 +1,10 @@
-package se.udemy.elmira.dependencyInjection;
+package se.udemy.elmira.dependencyInjection.vehicles;
+
+import se.udemy.elmira.dependencyInjection.parts.Engine;
 
 public class Vehicle {
 
-    Engine myEngine;
+    private Engine myEngine;
 
     public Vehicle(Engine anEngine) {
         this.myEngine = anEngine;

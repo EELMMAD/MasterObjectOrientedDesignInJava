@@ -1,4 +1,6 @@
-package se.udemy.elmira.dependencyInjection;
+package se.udemy.elmira.dependencyInjection.parts;
+
+import se.udemy.elmira.dependencyInjection.parts.Engine;
 
 public class LargeEngine implements Engine {
     private int horsePower;
