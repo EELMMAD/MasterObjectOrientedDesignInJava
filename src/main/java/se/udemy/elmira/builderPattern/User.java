@@ -10,6 +10,7 @@ public class User {
     private int phoneNumber; // Optional
     private String address; // Optional
 
+
     public User(Builder builder) {
         this.userName = builder.userName;
         this.emailAddress = builder.emailAddress;
